@@ -15,7 +15,7 @@ import lombok.Setter;
 @Setter
 public class CRUD {
     
-    private String document_id;
+    private String documentId;
     private String name;
     private String profession;
     
