@@ -31,8 +31,8 @@ public class CRUDController {
     }
     
     @GetMapping("/get")
-    public CRUD getCRUD(@RequestParam String documentID) throws InterruptedException, ExecutionException {
-        return crudService.getCRUD(documentID);
+    public CRUD getCRUD(@RequestParam String documentId) throws InterruptedException, ExecutionException {
+        return crudService.getCRUD(documentId);
     }
     
     @GetMapping("/update")
@@ -41,8 +41,8 @@ public class CRUDController {
     }
 
     @GetMapping("/delete")
-    public String deleteCRUD(@RequestParam String documentID) throws InterruptedException, ExecutionException {
-        return crudService.deleteCRUD(documentID);
+    public String deleteCRUD(@RequestParam String documentId) throws InterruptedException, ExecutionException {
+        return crudService.deleteCRUD(documentId);
     }
     
     @GetMapping("/test")

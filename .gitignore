@@ -1,0 +1,5 @@
+*.class
+*.lst
+
+src/main/resources/serviceAccountKey.json
+target/
